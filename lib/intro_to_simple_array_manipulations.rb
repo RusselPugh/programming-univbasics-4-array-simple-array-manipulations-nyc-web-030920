@@ -5,7 +5,8 @@ def using_push(colors_in_the_rainbow,next_color)
 end
 
 def using_unshift(array, string)
-  
+  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+    @new_neighborhood = "Staten Island"
 end
 
 def using_pop(array)
