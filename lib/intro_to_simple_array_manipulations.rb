@@ -11,7 +11,8 @@ def using_unshift(bouroughs_in_nyc, "new neighborhood")
 end
 
 def using_pop(array)
-  
+  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  @deleted_string
 end
 
 def pop_with_args(array)
