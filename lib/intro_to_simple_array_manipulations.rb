@@ -30,8 +30,10 @@ def shift_with_args(ice_cream_brands)
   brands_removed = ice_cream_brands.shift(2)
 end
 
-def using_concat(array1, array2)
-  
+def using_concat(my_favorite_things, more_favs)
+  my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
+  more_favs = ["sports cars", "flatiron school"]
+  all_my_favs = using_concat(@my_favorite_things, more_favs)
 end
 
 def using_insert(array, element)
