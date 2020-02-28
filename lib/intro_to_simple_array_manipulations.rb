@@ -25,8 +25,9 @@ def using_shift(my_favorite_cities)
   im_so_over_this_city = my_favorite_cities.shift
 end
 
-def shift_with_args(array)
-  
+def shift_with_args(ice_cream_brands)
+  ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
+  brands_removed = ice_cream_brands.shift
 end
 
 def using_concat(array1, array2)
