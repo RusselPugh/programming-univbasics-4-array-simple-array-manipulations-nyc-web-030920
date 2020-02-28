@@ -59,5 +59,8 @@ def using_delete(instructors, "no offense steven")
 end
 
 def using_delete_at(array, integer)
-  
+  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+    deleted_robot = using_delete_at(famous_robots, 2)
+    expect(deleted_robot).to eq("Robocop")
+  end
 end
